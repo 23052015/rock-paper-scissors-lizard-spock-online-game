@@ -5,7 +5,6 @@ let player;
 let computer;
 
 
-
 window.onload = function() {
     for (let i = 0; i < 5; i++) {
         let choice = document.createElement("img");
@@ -20,11 +19,11 @@ window.onload = function() {
 //player choice
 function selectChoice() {
 player = this.id;
-document.getElementById("player-choice").src = player + ".png";
+document.getElementById("player-choice").src = `icons/${player}.png`
 
 //computer choice
 computer = choices[Math.floor(Math.random() * 5)];
-document.getElementById("computer-choice").src = computer + ".png";
+document.getElementById("computer-choice").src = `icons/${computer}.png`
 
 let parsedplayerScore = parseInt(playerScore.innerText)
 let parsedcomputerScore = parseInt(playerScore.innerText)
@@ -109,4 +108,5 @@ else {
         }
     }       
 }
+
 
