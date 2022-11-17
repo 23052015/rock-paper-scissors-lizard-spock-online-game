@@ -1,6 +1,6 @@
 let choices = ["rock", "paper", "scissor", "lizard", "spock"];
-let playerScore =document.getElementById("player-score") ;
-let computerScore =document.getElementById("computer-score");
+let playerScore = document.getElementById("player-score") ;
+let computerScore = document.getElementById("computer-score");
 let player;
 let computer;
 
@@ -26,7 +26,7 @@ computer = choices[Math.floor(Math.random() * 5)];
 document.getElementById("computer-choice").src = `icons/${computer}.png`
 
 let parsedplayerScore = parseInt(playerScore.innerText)
-let parsedcomputerScore = parseInt(playerScore.innerText)
+let parsedcomputerScore = parseInt(computerScore.innerText)
 
 //result check
 if (player == computer) {
@@ -35,75 +35,75 @@ if (player == computer) {
 else {
     if (player == "rock") {
         if (computer == "scissor") {
-           playerScore.innerText = parsedplayerScore + 1;
+           playerScore.innerText = ++parsedplayerScore;
             }
         else if (computer == "lizard") {
-            playerScore.innerText = parsedplayerScore + 1;
+            playerScore.innerText = ++parsedplayerScore;
              }
         else if (computer == "paper") {
-            computerScore.innerText = parsedcomputerScore + 1;
+            computerScore.innerText = ++parsedcomputerScore;
              }
         else if (computer == "spock") {
-            computerScore.innerText = parsedcomputerScore + 1;
+            computerScore.innerText = ++parsedcomputerScore;
             }
         }
 
         else if (player == "scissor") {
             if (computer == "paper") {
-            playerScore.innerText = parsedplayerScore + 1;          
+            playerScore.innerText = ++parsedplayerScore;          
             }
             else if(computer == "lizard") {
-            playerScore.innerText = parsedplayerScore + 1;
+            playerScore.innerText = ++parsedplayerScore;
             }
             else if(computer == "rock") {
-            computerScore.innerText = parsedcomputerScore + 1;
+            computerScore.innerText = ++parsedcomputerScore;
             }
             else if(computer == "spock") {
-            computerScore.innerText = parsedcomputerScore + 1;
+            computerScore.innerText = ++parsedcomputerScore;
             }
         }    
             else if (player == "paper") {
             if (computer == "rock") {
-                playerScore.innerText = parsedplayerScore + 1;          
+                playerScore.innerText = ++parsedplayerScore;          
             }
             else if(computer == "spock") {
-                playerScore.innerText = parsedplayerScore + 1;
+                playerScore.innerText = ++parsedplayerScore;
             }
             else if(computer == "scissor") {
-                computerScore.innerText = parsedcomputerScore + 1;
+                computerScore.innerText = ++parsedcomputerScore;
             }
             else if(computer == "lizard") {
-                computerScore.innerText = parsedcomputerScore + 1;
+                computerScore.innerText = ++parsedcomputerScore;
             }
         }
 
         else if (player == "lizard") {
             if (computer == "spock") {
-                playerScore.innerText = parsedplayerScore + 1;          
+                playerScore.innerText = ++parsedplayerScore;          
             }
             else if(computer == "paper") {
-                 playerScore.innerText = parsedplayerScore + 1;
+                 playerScore.innerText = ++parsedplayerScore;
             }
             else if(computer == "scissor") {
-                computerScore.innerText = parsedcomputerScore + 1;
+                computerScore.innerText = ++parsedcomputerScore;
             }
             else if(computer == "rock") {
-                computerScore.innerText = parsedcomputerScore + 1;
+                computerScore.innerText = ++parsedcomputerScore;
             }
         }
 
         else if (player == "spock") {
             if (computer == "scissor") {
-                 playerScore.innerText = parsedplayerScore + 1;          
+                 playerScore.innerText = ++parsedplayerScore;          
             }
             else if(computer == "rock") {
-                 playerScore.innerText = parsedplayerScore + 1;
+                 playerScore.innerText = ++parsedplayerScore;
             }
             else if(computer == "paper") {
-                computerScore.innerText = parsedcomputerScore + 1;
+                computerScore.innerText = ++parsedcomputerScore;
             }
             else if(computer == "lizard") {
-                computerScore.innerText = parsedcomputerScore + 1;
+                computerScore.innerText = ++parsedcomputerScore;
             }
         }
     }       
