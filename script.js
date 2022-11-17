@@ -26,6 +26,7 @@ document.getElementById("player-choice").src = `icons/${player}.png`;
 computer = choices[Math.floor(Math.random() * 5)];
 document.getElementById("computer-choice").src = `icons/${computer}.png`;
 
+//Score and Message
 let parsedplayerScore = parseInt(playerScore.innerText);
 let parsedcomputerScore = parseInt(computerScore.innerText);
 let result = document.getElementById('result');
@@ -39,11 +40,11 @@ else {
     if (player == "rock") {
         if (computer == "scissor") {
            playerScore.innerText = ++parsedplayerScore;
-           result.innerHTML = 'You Won!';
+           result.innerHTML = 'You Win!';
     }
         else if (computer == "lizard") {
             playerScore.innerText = ++parsedplayerScore;
-            result.innerHTML = 'You Won!';
+            result.innerHTML = 'You Win!';
              }
         else if (computer == "paper") {
             computerScore.innerText = ++parsedcomputerScore;
@@ -58,11 +59,11 @@ else {
         else if (player == "scissor") {
             if (computer == "paper") {
             playerScore.innerText = ++parsedplayerScore;
-            result.innerHTML = 'You Won!';          
+            result.innerHTML = 'You Win!';          
             }
             else if(computer == "lizard") {
             playerScore.innerText = ++parsedplayerScore;
-            result.innerHTML = 'You Won!';
+            result.innerHTML = 'You Win!';
             }
             else if(computer == "rock") {
             computerScore.innerText = ++parsedcomputerScore;
@@ -76,11 +77,11 @@ else {
             else if (player == "paper") {
             if (computer == "rock") {
                 playerScore.innerText = ++parsedplayerScore;
-                result.innerHTML = 'You Won!';          
+                result.innerHTML = 'You Win!';          
             }
             else if(computer == "spock") {
                 playerScore.innerText = ++parsedplayerScore;
-                result.innerHTML = 'You Won!';
+                result.innerHTML = 'You Win!';
             }
             else if(computer == "scissor") {
                 computerScore.innerText = ++parsedcomputerScore;
@@ -95,11 +96,11 @@ else {
         else if (player == "lizard") {
             if (computer == "spock") {
                 playerScore.innerText = ++parsedplayerScore;
-                result.innerHTML = 'You Won!';          
+                result.innerHTML = 'You Win!';          
             }
             else if(computer == "paper") {
                  playerScore.innerText = ++parsedplayerScore;
-                 result.innerHTML = 'You Won!';
+                 result.innerHTML = 'You Win!';
             }
             else if(computer == "scissor") {
                 computerScore.innerText = ++parsedcomputerScore;
@@ -114,11 +115,11 @@ else {
         else if (player == "spock") {
             if (computer == "scissor") {
                  playerScore.innerText = ++parsedplayerScore;
-                 result.innerHTML = 'You Won!';          
+                 result.innerHTML = 'You Win!';          
             }
             else if(computer == "rock") {
                  playerScore.innerText = ++parsedplayerScore;
-                 result.innerHTML = 'You Won!';
+                 result.innerHTML = 'You Win!';
             }
             else if(computer == "paper") {
                 computerScore.innerText = ++parsedcomputerScore;

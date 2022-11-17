@@ -18,12 +18,14 @@ h1 {
     width: 140px;
     height: 140px;
     background-color: #a1f598;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 #player-choice {
     width: 140px;
     height: 140px;
     background-color: #a1f598;
+    border: 2px solid rgb(0, 0, 0);
     
 }
 
@@ -44,7 +46,8 @@ h1 {
 }
 
 #choices img:hover {
-    transform: scale(1,2);
+    transform: scale(1,1);
+    border: 2px solid rgb(0, 0, 0);;
 }
 
 
@@ -69,7 +72,7 @@ p {
     background-color: gold;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     #choices img {
         width: 60px;
         height: 60px;
