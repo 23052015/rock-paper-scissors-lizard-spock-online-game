@@ -46,10 +46,8 @@ h1 {
 }
 
 #choices img:hover {
-    transform: scale(1,1);
     border: 2px solid rgb(0, 0, 0);;
 }
-
 
 #player-score {
     padding-top: 10px;

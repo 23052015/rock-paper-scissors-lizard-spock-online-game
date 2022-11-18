@@ -10,8 +10,8 @@ window.onload = function() {
     for (let i = 0; i < 5; i++) {
         let choice = document.createElement("img");
         choice.id = choices[i];
-        choice.src = "icons/" +  choices[i] + ".png";       
-        choice.addEventListener("click", selectChoice);
+        choice.src = "icons/" +  choices[i] + ".png"; 
+        choice.addEventListener("click", selectChoice, gameOver);
         document.getElementById("choices").append(choice);
 
     }
@@ -131,6 +131,23 @@ else {
             }
         }
     }       
+
+    
 }
 
+function gameOver() {
+    if (playerScore === 20 && computerScore < 20){
+        alert("You won! Click OK to reset the game.");
+        playerScore = 0;
+        computerScore = 0;
+    }
+
+    if (playerScore < 20 && computerScore === 20){
+        alert("You lost! Click OK to reset the game.");
+        playerScore = 0;
+        computerScore = 0;
+    }
+
+}
+gameOver()
 
