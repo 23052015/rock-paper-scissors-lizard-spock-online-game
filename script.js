@@ -11,11 +11,16 @@ window.onload = function() {
         let choice = document.createElement("img");
         choice.id = choices[i];
         choice.src = "icons/" +  choices[i] + ".png"; 
-        choice.addEventListener("click", selectChoice, gameOver);
+        choice.addEventListener("click", selectChoice);
         document.getElementById("choices").append(choice);
+        console.log(i);
 
     }
+
+    
 };
+
+
 
 //player choice
 function selectChoice() {
@@ -130,24 +135,31 @@ else {
                 result.innerHTML = 'You Lose!';
             }
         }
+        
+    
     }       
 
     
 }
 
 function gameOver() {
-    if (playerScore === 20 && computerScore < 20){
-        alert("You won! Click OK to reset the game.");
+    if (playerScore === 20 && computerScore < 15){
+        alert("You won! Click OK to play again.");
         playerScore = 0;
         computerScore = 0;
     }
 
-    if (playerScore < 20 && computerScore === 20){
-        alert("You lost! Click OK to reset the game.");
+    else if (playerScore < 20 && computerScore === 20){
+        alert("You lost! Click OK to play again.");
         playerScore = 0;
         computerScore = 0;
     }
 
-}
-gameOver()
+}    
+
+gameOver();
+
+
+
+
 
