@@ -21,10 +21,22 @@ window.onload = function() {
 };
 
 
+document.addEventListener("click", function(event){
+    console.log("somethinf=g is clicke3d")
+    if(parseInt(playerScore.innerText) >= 3 || parseInt(computerScore.innerText) >= 3 ) {
+      //  alert("3 or more reached")
+        playerScore.innerText = 0;
+        computerScore.innerText = 0;
+    }
+})
+
+
 
 //player choice
 function selectChoice() {
-player = this.id;
+  console.log("clicked", playerScore.innerText, computerScore.innerText)
+
+ player = this.id;
 document.getElementById("player-choice").src = `icons/${player}.png`;
 
 //computer choice
@@ -137,27 +149,17 @@ else {
         }
         
     
-    }       
+      
+    }
+   
+
+
+     
 
     
 }
 
-function gameOver() {
-    if (playerScore === 20 && computerScore < 15){
-        alert("You won! Click OK to play again.");
-        playerScore = 0;
-        computerScore = 0;
-    }
 
-    else if (playerScore < 20 && computerScore === 20){
-        alert("You lost! Click OK to play again.");
-        playerScore = 0;
-        computerScore = 0;
-    }
-
-}    
-
-gameOver();
 
 
 

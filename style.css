@@ -13,12 +13,23 @@ h1 {
 
 /* game area */
 
+.container {
+    width: 100%;
+    height: 300px;
+    display: block;
+    
+    
+}
 
 #computer-choice {
     width: 140px;
     height: 140px;
     background-color: #a1f598;
     border: 2px solid rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    
+   
 }
 
 #player-choice {
@@ -26,6 +37,10 @@ h1 {
     height: 140px;
     background-color: #a1f598;
     border: 2px solid rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+
+    
     
 }
 
@@ -40,9 +55,8 @@ h1 {
 #choices img {
     width: 80px;
     height: 80px;
-    display: inline-flex;
     padding-top: 20px;
-    justify-content: space-between;
+    
 }
 
 #choices img:hover {
@@ -75,6 +89,4 @@ p {
         width: 60px;
         height: 60px;
     }
-
-
 }
