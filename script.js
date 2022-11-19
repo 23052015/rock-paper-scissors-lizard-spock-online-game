@@ -3,7 +3,7 @@ let playerScore = document.getElementById("player-score") ;
 let computerScore = document.getElementById("computer-score");
 let player;
 let computer;
-
+let winnerDeclaration = document.getElementsByClassName('winner-declaration')
 
 
 window.onload = function() {
@@ -21,10 +21,14 @@ window.onload = function() {
 };
 
 
-document.addEventListener("click", function(event){
-    console.log("somethinf=g is clicke3d")
-    if(parseInt(playerScore.innerText) >= 3 || parseInt(computerScore.innerText) >= 3 ) {
-      //  alert("3 or more reached")
+document.addEventListener("click", function(){
+    if(parseInt(playerScore.innerText) >= 3) {
+        alert("You won!Click OK to play again")
+        playerScore.innerText = 0;
+        computerScore.innerText = 0;
+    }
+    else if(parseInt(computerScore.innerText) >= 3) {
+        alert("Computer won!Click OK to play again")
         playerScore.innerText = 0;
         computerScore.innerText = 0;
     }

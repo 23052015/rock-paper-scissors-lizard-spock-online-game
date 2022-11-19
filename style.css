@@ -84,6 +84,8 @@ p {
     background-color: gold;
 }
 
+
+
 @media screen and (max-width: 375px) {
     #choices img {
         width: 60px;
