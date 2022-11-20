@@ -73,13 +73,13 @@ This game is created for all who want to have a little bit of fun on the interne
 * No unfixed Bugs
 
 ### Validator Testing
-1. HTML [W3C HTML Validator](https://validator.w3.org/)
+1. [W3C HTML Validator](https://validator.w3.org/)
 * Three errors remaining.All of them are the missing ALT attributes. Since the elements are created in JavaScript I did not find the possibility yet to add alt    attribues without changing the appearance of the page layout before making a choice.
 
-2. CSS [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
+2. [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
 * No errors detected.
 
-3. JS [JSHint JavaScript Validator](https://jshint.com/)
+3. [JSHint JavaScript Validator](https://jshint.com/)
 * No errors detected.
 
 
