@@ -41,8 +41,8 @@ h1 > img {
 }
 
 #choices img {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     padding-top: 20px;
 }
 
@@ -121,22 +121,22 @@ p {
   }
   
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     #choices img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     #computer-choice {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-color: #a1f598;
         border: 2px solid rgb(0, 0, 0);
        }
     
     #player-choice {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-color: #a1f598;
         border: 2px solid rgb(0, 0, 0);    
     }
