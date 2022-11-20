@@ -44,7 +44,6 @@ h1 > img {
     width: 80px;
     height: 80px;
     padding-top: 20px;
-    
 }
 
 #choices img:hover {
@@ -73,7 +72,6 @@ p {
 }
 
 /*rules button*/
-
 #btn {
     position: relative;
     top:50%;

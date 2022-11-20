@@ -3,7 +3,6 @@ let playerScore = document.getElementById("player-score") ;
 let computerScore = document.getElementById("computer-score");
 let player;
 let computer;
-let winnerDeclaration = document.getElementsByClassName('winner-declaration')
 let rules = document.getElementById("rules");
 let btn = document.getElementById("btn");
 let span = document.getElementsByClassName("close")[0];
@@ -22,12 +21,12 @@ window.onload = function() {
 };
 //checking for winner
 document.addEventListener("click", function(){
-    if(parseInt(playerScore.innerText) >= 11) {
+    if(parseInt(playerScore.innerText) >= 10) {
         alert("You won!Click OK to play again")
         playerScore.innerText = 0;
         computerScore.innerText = 0;
     }
-    else if(parseInt(computerScore.innerText) >= 11) {
+    else if(parseInt(computerScore.innerText) >= 10) {
         alert("Computer won!Click OK to play again")
         playerScore.innerText = 0;
         computerScore.innerText = 0;
@@ -36,9 +35,8 @@ document.addEventListener("click", function(){
 
 //player choice
 function selectChoice() {
-  console.log("clicked", playerScore.innerText, computerScore.innerText)
 
- player = this.id;
+player = this.id;
 document.getElementById("player-choice").src = `icons/${player}.png`;
 
 //computer choice
@@ -155,19 +153,17 @@ else {
     }
    
 }
-//checking rules
+//rules
 btn.onclick = function() {
   rules.style.display = "block";
-}
-
+};
 
 span.onclick = function() {
   rules.style.display = "none";
-}
-
+};
 
 window.onclick = function(event) {
   if (event.target == rules) {
     rules.style.display = "none";
   }
-}
+};
