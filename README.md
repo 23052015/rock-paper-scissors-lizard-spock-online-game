@@ -7,11 +7,11 @@ This game is created for all who want to have a little bit of fun on the interne
 
 ### Existing Features
 
-1. Header
+#### Header
 * The header is at the top of the page and it challenges the user to play. 
 * The logo (controller) represents the symbol for playing.
 
-2. Game Area
+#### Game Area
 * The choices available for the user are displayed as symbols.
 * When clicked, the choice will appear in the second green box. Computer choice which is defined by the JavaScript code will be displayed in the first green box. 
 * The result will be displayed for bothe the computer and the player. 
@@ -20,15 +20,17 @@ This game is created for all who want to have a little bit of fun on the interne
 ![Screenshot (47)](https://user-images.githubusercontent.com/109954194/202880190-acfb4457-1364-41f7-9333-87db33e86c22.png)
 
 
-3. Footer
+#### Footer
+
 * There is a button in the footer which by clicking opens a popUp window where the rules are presented. 
 ![Screenshot (48)](https://user-images.githubusercontent.com/109954194/202880198-79ce8a80-87be-4604-b4b4-2ac0ff31a0e1.png)
 
 * The User can get familiar with the rules when starting the game. 
+* 
 ![Screenshot (49)](https://user-images.githubusercontent.com/109954194/202880205-d2ca8359-0011-4ce8-8c3c-91ff9f795ece.png)
 
 
-4. Additional features which will be added. 
+#### Additional features which will be added. 
 * I want to add a sign-up form where the user can type his desired username and another score tracking which will check how often a specific user played. 
 
 ## Testing 
@@ -37,6 +39,25 @@ This game is created for all who want to have a little bit of fun on the interne
 * All the features work flawless.
 * The content is easy to understand. 
 * Fonts and colors used in this game are easy to read. This is verifyed throght the lighthouse in the DevTools
+
 ![Screenshot (50)](https://user-images.githubusercontent.com/109954194/202880213-429899c6-597c-4a6e-94df-0ea2e6dac173.png)
+
 ![Screenshot (51)](https://user-images.githubusercontent.com/109954194/202880217-f7e99ecf-aa9b-401a-abd1-924d5a34be0d.png)
+
+### Bugs 
+* When the game was deployed a bug was discovered in CSS Media Query. This was corrected. 
+
+#### Unfixed Bugs
+
+* No unfixed Bugs
+
+### Validator Testing
+* HTML [W3C HTML Validator](https://validator.w3.org/)
+Three errors remaining.All of them are the missing ALT attributes. Since the elements are created in JavaScript I did not find the possibility yet to add alt attribues without changing the appearance of the page layout before making a choice.
+
+* CSS [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
+No errors detected.
+
+JS [JSHint JavaScript Validator](https://jshint.com/)
+No errors detected.
 
