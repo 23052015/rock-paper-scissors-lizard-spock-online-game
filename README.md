@@ -26,7 +26,9 @@ This game is created for all who want to have a little bit of fun on the interne
 ![Screenshot (48)](https://user-images.githubusercontent.com/109954194/202880198-79ce8a80-87be-4604-b4b4-2ac0ff31a0e1.png)
 
 * The User can get familiar with the rules when starting the game. 
-* 
+
+
+
 ![Screenshot (49)](https://user-images.githubusercontent.com/109954194/202880205-d2ca8359-0011-4ce8-8c3c-91ff9f795ece.png)
 
 
@@ -53,11 +55,35 @@ This game is created for all who want to have a little bit of fun on the interne
 
 ### Validator Testing
 * HTML [W3C HTML Validator](https://validator.w3.org/)
-Three errors remaining.All of them are the missing ALT attributes. Since the elements are created in JavaScript I did not find the possibility yet to add alt attribues without changing the appearance of the page layout before making a choice.
+..* Three errors remaining.All of them are the missing ALT attributes. Since the elements are created in JavaScript I did not find the possibility yet to add alt    attribues without changing the appearance of the page layout before making a choice.
 
 * CSS [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
-No errors detected.
+..* No errors detected.
 
-JS [JSHint JavaScript Validator](https://jshint.com/)
-No errors detected.
+* JS [JSHint JavaScript Validator](https://jshint.com/)
+..* No errors detected.
 
+
+## Deployment 
+* The Page was deployed using Github in following steps:
+1. Navigate to the repository and then click on the settings tab. 
+2. In the sidebar select pages.
+3. When guided to the "page", change the branche from "none" to "main". 
+4. Afterwards press "save".
+5. The link is automatically provided by GitHub (You need to refresh the page by pressing F5). 
+
+
+## Credits
+
+* I would like to express my gratitude to my Mentor Jubril Akolade for all the patience he had with me during this project. 
+* Tutors from CodeInstitute also played a great role helping me with suggestions during this project. 
+
+
+### Content 
+
+* The rules button code was partially inspired by an Instagram profile called ccodingtilak. 
+* Youtube videos also played a great role building this game.
+
+
+#### Media
+* The icons were downloaded from the site https://www.flaticon.com
