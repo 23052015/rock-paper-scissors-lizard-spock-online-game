@@ -3,6 +3,8 @@ This game is created for all who want to have a little bit of fun on the interne
 ![Screenshot (46)](https://user-images.githubusercontent.com/109954194/202880172-f3540a63-c064-4f8e-b49c-7a53a5749cba.png)
 
 
+
+
 ## Features
 
 ### Existing Features
@@ -17,7 +19,13 @@ This game is created for all who want to have a little bit of fun on the interne
 * The result will be displayed for bothe the computer and the player. 
 * In order to win the game, the user has to score 10 wins. Otherwise the cumputer wins. 
 * The winner is confirmed by the alert which is activated when either the computer or the user reaches 10 points.
+
+
+
+
 ![Screenshot (47)](https://user-images.githubusercontent.com/109954194/202880190-acfb4457-1364-41f7-9333-87db33e86c22.png)
+
+
 
 
 #### Footer
@@ -29,7 +37,10 @@ This game is created for all who want to have a little bit of fun on the interne
 
 
 
+
 ![Screenshot (49)](https://user-images.githubusercontent.com/109954194/202880205-d2ca8359-0011-4ce8-8c3c-91ff9f795ece.png)
+
+
 
 
 #### Additional features which will be added. 
@@ -42,9 +53,14 @@ This game is created for all who want to have a little bit of fun on the interne
 * The content is easy to understand. 
 * Fonts and colors used in this game are easy to read. This is verifyed throght the lighthouse in the DevTools
 
+
+
 ![Screenshot (50)](https://user-images.githubusercontent.com/109954194/202880213-429899c6-597c-4a6e-94df-0ea2e6dac173.png)
 
 ![Screenshot (51)](https://user-images.githubusercontent.com/109954194/202880217-f7e99ecf-aa9b-401a-abd1-924d5a34be0d.png)
+
+
+
 
 ### Bugs 
 * When the game was deployed a bug was discovered in CSS Media Query. This was corrected. 
@@ -54,14 +70,14 @@ This game is created for all who want to have a little bit of fun on the interne
 * No unfixed Bugs
 
 ### Validator Testing
-* HTML [W3C HTML Validator](https://validator.w3.org/)
-..* Three errors remaining.All of them are the missing ALT attributes. Since the elements are created in JavaScript I did not find the possibility yet to add alt    attribues without changing the appearance of the page layout before making a choice.
+1. HTML [W3C HTML Validator](https://validator.w3.org/)
+* Three errors remaining.All of them are the missing ALT attributes. Since the elements are created in JavaScript I did not find the possibility yet to add alt    attribues without changing the appearance of the page layout before making a choice.
 
-* CSS [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
-..* No errors detected.
+2. CSS [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
+* No errors detected.
 
-* JS [JSHint JavaScript Validator](https://jshint.com/)
-..* No errors detected.
+3. JS [JSHint JavaScript Validator](https://jshint.com/)
+* No errors detected.
 
 
 ## Deployment 
