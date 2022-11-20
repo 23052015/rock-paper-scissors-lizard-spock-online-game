@@ -1,5 +1,8 @@
 # rock-paper-scissors-lizard-spock-online-game
 This game is created for all who want to have a little bit of fun on the internet. There is no age nor sensible restriction nor sensible content in this game
+
+[Link to the game](https://23052015.github.io/rock-paper-scissors-lizard-spock-online-game/)
+
 ![Screenshot (46)](https://user-images.githubusercontent.com/109954194/202880172-f3540a63-c064-4f8e-b49c-7a53a5749cba.png)
 
 
