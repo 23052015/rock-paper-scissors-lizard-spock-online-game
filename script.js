@@ -4,8 +4,11 @@ let computerScore = document.getElementById("computer-score");
 let player;
 let computer;
 let winnerDeclaration = document.getElementsByClassName('winner-declaration')
+let rules = document.getElementById("rules");
+let btn = document.getElementById("btn");
+let span = document.getElementsByClassName("close")[0];
 
-
+//images which load upon loading the page
 window.onload = function() {
     for (let i = 0; i < 5; i++) {
         let choice = document.createElement("img");
@@ -16,25 +19,20 @@ window.onload = function() {
         console.log(i);
 
     }
-
-    
 };
-
-
+//checking for winner
 document.addEventListener("click", function(){
-    if(parseInt(playerScore.innerText) >= 3) {
+    if(parseInt(playerScore.innerText) >= 11) {
         alert("You won!Click OK to play again")
         playerScore.innerText = 0;
         computerScore.innerText = 0;
     }
-    else if(parseInt(computerScore.innerText) >= 3) {
+    else if(parseInt(computerScore.innerText) >= 11) {
         alert("Computer won!Click OK to play again")
         playerScore.innerText = 0;
         computerScore.innerText = 0;
     }
 })
-
-
 
 //player choice
 function selectChoice() {
@@ -156,16 +154,20 @@ else {
       
     }
    
-
-
-     
-
-    
+}
+//checking rules
+btn.onclick = function() {
+  rules.style.display = "block";
 }
 
 
+span.onclick = function() {
+  rules.style.display = "none";
+}
 
 
-
-
-
+window.onclick = function(event) {
+  if (event.target == rules) {
+    rules.style.display = "none";
+  }
+}
