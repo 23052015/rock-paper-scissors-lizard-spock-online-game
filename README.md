@@ -96,7 +96,8 @@ This game is created for all who want to have a little bit of fun on the interne
 
 * I would like to express my gratitude to my Mentor Jubril Akolade for all the patience he had with me during this project. 
 * Tutors from CodeInstitute also played a great role helping me with suggestions during this project. 
-* The source code which was partially used for this project can be found on Github under the [Link to source code](https://github.com/HimanshuDorbi/Rock-Paper-           Scissor/blob/b7a72a41bfe5d78a1d98b65c5cee90c4e6f6d50f/index.js)
+* The source code which was partially used for this project can be found on Github under this
+  [link](https://github.com/HimanshuDorbi/Rock-Paper-Scissor/blob/b7a72a41bfe5d78a1d98b65c5cee90c4e6f6d50f/index.js)
 
 
 ### Content 
