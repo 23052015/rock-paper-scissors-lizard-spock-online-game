@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rock-Paper-Scissors-Lizard-Spock online Game">
-    <meta name="keywords" content="Rock-Paper-Scissors-Lizard-Spock">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rock-Paper-Scissors-Lizard-Spock online Game"
+    />
+    <meta name="keywords" content="Rock-Paper-Scissors-Lizard-Spock" />
     <title>Rock-Paper-Scissors-Lizard-Spock</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!-- header-->
-    <h1>Let's play!
-    <img src="icons/joystick.png" alt="controller">
+    <!--this code was partially borrowed and updated from 
+        https://github.com/HimanshuDorbi/Rock-Paper-Scissor/blob/b7a72a41bfe5d78a1d98b65c5cee90c4e6f6d50f/index.js-->
+
+    <h1>
+      Let's play!
+      <img src="icons/joystick.png" alt="controller" />
     </h1>
-            <!-- game and score -->
-            <h2>Computer</h2>
-            <p id="computer-score">0</p>
-            <img id="computer-choice">
-            <br>
-            <img id="player-choice"> 
-            <div id="choices">
-            </div>
-            <h2>Player</h2>
-            <p id="player-score">0</p>
-            <div id="result"></div>
-            <button id="btn">Rules</button>
+    <!-- game and score -->
+    <h2>Computer</h2>
+    <p id="computer-score">0</p>
+    <img id="computer-choice" />
+    <br />
+    <img id="player-choice" />
+    <div id="choices"></div>
+    <h2>Player</h2>
+    <p id="player-score">0</p>
+    <div id="result"></div>
+    <button id="btn">Rules</button>
 
-            
-        <div id="rules" class="game-rules">
-
-            <div class="rules-content">
-            <span class="close">X</span>
-            <p> 1.)First make a choice by clicking on an image:
-                <br>
-                Rock, paper, scissor, lizard or spock.
-                <br>
-                Who ever wins gets a point.
-                <br>
-                Scissor cuts Paper
-                <br>
-                Paper covers Rock
-                <br>
-                Rock crushes Lizard
-                <br>
-                Lizard poisons Spock
-                <br>
-                Spock smashes Scissor
-                <br>
-                Scissor decapitates Lizard
-                <br>
-                Lizard eats Paper
-                <br>
-                Paper disproves Spock
-                <br>
-                Spock vaporizes Rock
-                <br>
-                Rock crushes Scissor
-                <br>
-                The first one to 10 wins.</p>
-            </div>
-        </div>
-            <script src="script.js"></script>   
-</body>
+    <div id="rules" class="game-rules">
+      <div class="rules-content">
+        <span class="close">X</span>
+        <p>
+          1.)First make a choice by clicking on an image:
+          <br />
+          Rock, paper, scissor, lizard or spock.
+          <br />
+          Who ever wins gets a point.
+          <br />
+          Scissor cuts Paper
+          <br />
+          Paper covers Rock
+          <br />
+          Rock crushes Lizard
+          <br />
+          Lizard poisons Spock
+          <br />
+          Spock smashes Scissor
+          <br />
+          Scissor decapitates Lizard
+          <br />
+          Lizard eats Paper
+          <br />
+          Paper disproves Spock
+          <br />
+          Spock vaporizes Rock
+          <br />
+          Rock crushes Scissor
+          <br />
+          The first one to 10 wins.
+        </p>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
